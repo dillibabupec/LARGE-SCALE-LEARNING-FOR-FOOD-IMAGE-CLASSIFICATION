@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FoodimG", ".", "{C62058FF-E6FF-4AC0-86F0-C93E73A67DAB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{0781AD74-AE20-4FE0-A778-15ADD0B468BF}|BAL.dll;{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}|BO.dll;{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}|DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/FoodimG"
+		Debug.AspNetCompiler.PhysicalPath = "..\FoodimG\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FoodimG\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FoodimG"
+		Release.AspNetCompiler.PhysicalPath = "..\FoodimG\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FoodimG\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50354"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAL", "BAL\BAL.csproj", "{0781AD74-AE20-4FE0-A778-15ADD0B468BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BO", "BO\BO.csproj", "{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C62058FF-E6FF-4AC0-86F0-C93E73A67DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62058FF-E6FF-4AC0-86F0-C93E73A67DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62058FF-E6FF-4AC0-86F0-C93E73A67DAB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62058FF-E6FF-4AC0-86F0-C93E73A67DAB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0781AD74-AE20-4FE0-A778-15ADD0B468BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0781AD74-AE20-4FE0-A778-15ADD0B468BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0781AD74-AE20-4FE0-A778-15ADD0B468BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0781AD74-AE20-4FE0-A778-15ADD0B468BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE3581B1-7C14-44A3-8A4B-DFB59D9F93F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B587CF7-3BBE-468A-BB73-A74E0FBF05BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
